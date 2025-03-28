@@ -4,7 +4,7 @@ import pandas as pd
 import streamlit as st 
 
 
-df = sns.load_dataset('Titanic')
+df = sns.load_dataset('titanic')
 
 st.title('Titanic Dataset Visualization')
 sel = st.sidebar.radio('Display DataFrame',('yes','no'))
