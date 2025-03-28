@@ -52,7 +52,8 @@ elif city  == 'Queenstown':
     ax = sns.countplot(x = 'sex' , hue = 'survived' , data = south)
     st.pyplot(fig)
 
-    hide_menu = """
+
+hide_menu = """
 <style>
 #MainMenu {visibility: hidden;}
 footer {visibility: hidden;}
